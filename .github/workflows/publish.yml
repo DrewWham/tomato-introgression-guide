@@ -20,23 +20,20 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
 
-      - name: Render HTML site
-        run: quarto render index.qmd --to html
+      - name: Render Quarto project
+        run: quarto render
 
-      - name: Render PDF
-        run: quarto render index.qmd --to pdf
-
-      - name: Copy PDF into site output
+      - name: Make PDF download available from site
         run: |
           echo "Looking for rendered PDFs..."
-          find . -maxdepth 3 -type f -name "*.pdf" -print
+          find . -maxdepth 4 -type f -name "*.pdf" -print
 
           if [ -f "_site/index.pdf" ]; then
             cp _site/index.pdf _site/tomato-introgression-guide.pdf
@@ -46,6 +43,11 @@ jobs:
             echo "No rendered PDF found."
             exit 1
           fi
+
+      - name: List rendered site files
+        run: |
+          echo "Contents of _site:"
+          find _site -maxdepth 4 -type f -print
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

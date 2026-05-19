@@ -1,0 +1,440 @@
+---
+title: "A Practical Introgression Strategy for Hobby Tomato Breeders"
+author: "Drew C. Wham, PhD"
+date: today
+---
+# Introduction: Why Would Someone Serial Backcross?
+
+Most hobby tomato breeding follows a familiar pattern: make a cross, grow the F1, self it to produce an F2, and then begin selecting and selfing over successive generations until the line is considered stable. This approach makes a lot of sense when the goal is discovery. It allows us to explore variation, uncover unexpected combinations, and occasionally stumble into something genuinely new and exciting.
+
+At the same time, that process comes with some real practical challenges. It tends to work best when you can grow reasonably large populations and apply consistent selection over multiple generations. For many hobby breeders, that simply isn’t realistic. We are often working with a handful of garden plants in the summer, maybe a shelf or grow tent in the winter, and limited time to manage everything. Under those constraints, progress can feel slow and outcomes can feel uncertain.
+
+One goal of this paper is to make breeding feel more approachable. Breeding does not have to belong only to people with fields, greenhouses, or institutional resources. With the right set of goals and a defined strategy, a focused breeding project can be small and practical, while still allowing a prospective breeder to achieve a desired outcome. This paper is about a breeding goal that is narrower, but often more approachable under hobby-scale conditions.
+
+Instead of asking, “What new combinations can I create?” we can ask a more focused question:
+
+::: {.center}
+***How can I take an already exceptional variety and add one specific trait to it?***
+:::
+
+This general idea—bringing a useful trait from one tomato background into another while preserving the main variety—is widely used in tomato breeding, especially when breeders work with traits from wild relatives or specialized donor lines (Hajjar and Hodgkin 2007; Khazaei and Madduri 2022).
+
+That might mean turning a favorite indeterminate heirloom into a dwarf. It might mean creating a micro version of a variety you already enjoy. It might mean introducing a clearly defined trait like anthocyanin expression or potato leaf while preserving everything else that makes the original variety appealing.
+
+This leads to a slightly different kind of breeding problem. When the goal is to preserve most of one parent while introducing just one or a few traits from another, the usual approach of repeated selfing and selection would be inefficient. It tends to break apart the original variety and then rely on selection to attempt to recover it, which can require larger populations and some patience to get back to something close to what you started with.
+
+That challenge can discourage people from attempting breeding projects at all. If breeding feels like it requires hundreds of plants, many years, and a large grow-out every generation, it can seem out of reach. But not every breeding goal requires that kind of open-ended search. Some goals can be approached more directly.
+
+The main idea explored in this paper is that, in these situations, a backcross-based introgression strategy can offer a more directed path. This is not because it is universally better, but because it approaches the problem differently. Instead of relying on selection alone to recover a desired combination, it actively guides the genome back toward the variety you are trying to preserve while carrying along the trait you want to introduce.
+
+A recent dwarf-tomato study used repeated backcrossing to recover salad-type fruit traits while retaining dwarf plant habit (Mattos et al. 2025). This study closely parallels the strategy I will describe here. Throughout the paper, I will use dwarf and micro breeding as running examples. These cases illustrate the approach particularly well: the target traits are easy to recognize, they can often be selected early, and they fit naturally into a repeated cycle of selfing and backcrossing. More broadly, they reflect a common motivation among hobby breeders: wanting to keep what makes a variety special, while changing just one aspect of it.
+
+Before laying out that strategy, it’s helpful to step back and look more closely at what is actually happening genetically in the standard approach. Once that foundation is clear, the logic behind introgression becomes much easier to see.
+
+# What’s Happening in the Standard Approach
+
+Before introducing a different strategy, it’s worth slowing down and taking a closer look at what the standard approach is actually doing. Much of what we rely on in hobby breeding comes from experience—what tends to work in practice—but when we step back and look at the genetics more abstractly, some useful patterns start to emerge.
+
+## A Simple Way to Think About a Cross
+
+To make this easier to reason about, it helps to use a simplified model.
+
+Let’s imagine two parent plants:
+
+- Parent A = AA, AA, AA, AA, AA, AA, ...
+- Parent B = BB, BB, BB, BB, BB, BB, ...
+
+Here, each letter represents all of the genes where the two parents differ. Two letters (i.e. AA) are used to represent the two copies of each gene that are present in each individual. Six sets of letter pairs are shown  followed by "..." to represent the potentially large number of genes that the two parents may differ at which could be in the hundreds.  This is a simplification, but a useful one for building intuition.
+
+If we make the cross:
+
+- Parent A × Parent B → F1 = AB, AB, AB, AB, AB, AB, ...
+
+Every F1 plant is heterozygous at every locus where the parents differ. Within this model, that also means every F1 plant is genetically identical. This helps explain why F1s are typically so uniform—they all carry the same combination of alleles, so they tend to look and behave the same.
+
+But this kind of uniformity is not the same thing as stability.
+
+An F1 can be very uniform in the current generation while still being genetically heterozygous underneath. If it is selfed, that hidden heterozygosity begins to segregate. In other words, the F1 may look predictable, but it does not breed true.
+
+That distinction matters later, because the introgression strategy described in this paper depends on repeatedly returning to a parent that is already stable. What we will call a 'recurrent parent'.
+
+For now, the important point is simple: a stable parent and a uniform F1 are not the same thing.
+
+This framing becomes more informative when we think about scale.
+
+Tomatoes have on the order of tens of thousands of genes—roughly 30,000 to 35,000 in commonly used genome annotations—and even closely related varieties can differ at many positions across the genome (Tomato Genome Consortium 2012). The exact number is less important than the implication:
+
+The number of genes we can consciously select for is very small compared to the number that differ between two parents.
+
+That imbalance plays a major role in how the rest of the process unfolds.
+
+## What Happens in the F2
+
+When the F1 (AB) is selfed, each locus segregates independently into:
+
+- AA
+- AB
+- BB
+
+Across the entire genome, this produces a large amount of recombination. Each F2 plant becomes a unique mosaic of Parent A and Parent B.
+
+You can think of it conceptually like this:
+
+**Figure 1: Genome Fragmentation in the F2 (conceptual)**
+
+- Parent A: AA, AA, AA, AA, AA, AA, ...
+- Parent B: BB, BB, BB, BB, BB, BB, ...
+- F1: AB, AB, AB, AB, AB, AB, ...
+
+F2 individuals might look like:
+
+- AB, AA, BB, BB, AA, AB, ...
+- AA, AB, AB, BB, BB, AA, ...
+- AB, AB, AB, AA, BB, AB, ...
+
+Each F2 plant is different, and none are guaranteed to resemble either parent overall. This is where variation comes from—but it’s also where the original structure of each parent begins to break apart.
+
+For discovery breeding, that can be a strength. If the goal is to explore what is possible, a highly variable F2 population is exactly where many interesting surprises appear.
+
+For a focused project, though, it can also be the source of the problem. If you already like Parent A and only want to change one trait, the F2 does not just reveal the trait you care about. It also reshuffles everything else.
+
+## What Selfing Does Over Time
+
+As we continue selfing generation after generation, one consistent pattern emerges: heterozygosity decreases, and homozygosity increases.
+
+This can be tracked clearly:
+
+**Table 1: Genetic Behavior Under Repeated Selfing**
+
+| Generation | % Heterozygous | % Genome A |
+|---|---:|---:|
+| F1 | 100% | 50% |
+| F2 | 50% | 50% |
+| F3 | 25% | 50% |
+| F4 | 12.5% | 50% |
+| F5 | 6.25% | 50% |
+| F6 | 3.13% | 50% |
+| F7 | 1.56% | 50% |
+| F8 | 0.78% | 50% |
+| F9 | 0.39% | 50% |
+| F10 | 0.20% | 50% |
+
+The important point here is not just that the genome is becoming more stable, but how it is becoming stable. Heterozygosity steadily decreases, but the proportion of Parent A and Parent B remains fixed at 50/50.
+
+Selfing reduces variation within individuals, but it does not move the genome toward either parent.
+
+Over time, this process simply locks in a random combination of the two.
+
+In other words, selfing makes a line more homozygous, but it does not by itself restore the original genetic background of either parent. This is part of why breeders use backcrossing when the goal is to recover a recurrent parent background while retaining a donor trait (Lippman et al. 2007; Menda et al. 2014).
+
+This also helps explain why the standard approach can require so many plants. Each F2 plant presents a different 50/50 mosaic, the breeder may need to grow many individuals to find one that happens to preserve the desired Parent A alleles across several important traits. If there are $N$ independent genes where we need the Parent A version to be fixed, the expected number of plants needed to find that exact combination grows like $2^N$. That number rises quickly: preserving one gene is easy, preserving five is already much harder, and preserving many genes at once can become unrealistic at any scale.
+
+This is especially important for traits like flavor, productivity, and overall visual character. Those traits are not usually controlled by a single gene, and they are not always easy to select perfectly by eye. So when the goal is to preserve the character of one parent while changing only one trait, the standard approach can become inefficient very quickly.
+
+## Selection: How We Try to Guide the Process
+
+Because selfing itself does not introduce direction, we rely on selection to shape outcomes. However, even in the context of careful breeding, we are only able to select for a handful of traits. Many of the traits we care most about—flavor, yield, plant structure, productivity—are influenced by many genes, most of which we are not directly selecting for.
+
+Traits like yield, flavor-related chemistry, fruit size, and plant performance are usually influenced by many genomic regions rather than a single visible switch, which is one reason they are harder to recover by eye alone (Eshed and Zamir 1995; Lippman et al. 2007).
+
+As selfing progresses, the genome becomes a mosaic of Parent A and Parent B, and selection can only act on the subset of traits we can observe.
+
+This leads to an important consequence:
+
+::: {.center}
+***Even if we succeed at stabilizing a tomato for all of the traits we are selecting for, all other genes will be stabilized as a random 50/50 mix of the two parents.***
+:::
+
+That does not make the standard approach wrong. It is still one of the most powerful ways to discover new tomatoes. But it does help explain why the approach can feel overwhelming for a hobby breeder working with limited space. If the goal is open-ended exploration, large populations are useful, but they may feel like a barrier.
+
+## Summary
+
+The standard approach to breeding does several things very well. It generates variation, supports exploration, and can eventually produce stable lines through repeated selfing and selection.
+
+At the same time, it has some important limitations.
+
+Selfing reduces heterozygosity but does not move the genome toward either parent. Selection can guide individual traits, but it has limited ability to reconstruct complex combinations. Larger populations are often needed to reliably recover desirable outcomes. Even if you do manage to achieve a tomato that has all the traits you were selecting for, the other traits will still be mixed from both parents.
+
+This is one reason a different strategy can be useful. If the goal is not to search broadly through variation, but to make one specific change to a variety that is already worth preserving, then a more directed process may be a better fit.
+
+That is the opening for introgression: a strategy designed not just to stabilize a line, but to guide it back toward a chosen parent while carrying along a selected trait.
+
+# A Directed Approach: Introgression as a Repeatable Process
+
+With a clearer picture of how the standard approach behaves, it becomes easier to see what is missing. Selfing reduces heterozygosity, and selection can guide specific traits, but there is nothing in the process itself that consistently moves the genome toward one parent or the other.
+
+Introgression takes a different approach by introducing direction.
+
+Rather than allowing the genome to drift and relying on selection to recover what we want, we repeatedly guide it back toward a specific parent while carrying along a trait from another. The goal is not to create a new combination of traits, but to make a targeted change to a variety that is already an exceptional example of what it is.
+
+In formal plant breeding, this same idea is often expressed through recurrent-parent backcrossing: the breeder repeatedly returns to the parent whose background they want to recover, while selecting for the donor trait being introduced (Lippman et al. 2007; Menda et al. 2014).
+
+## The Core Idea
+
+Using the same simplified model from Section 2:
+
+- Parent A = AA (the variety we want to preserve, refereed to as the 'recurrent-parent')
+- Parent B = BB (the source of the new trait)
+
+In this framework, the goal shifts slightly. Instead of producing a stable mixture of A and B, we are aiming for something more specific:
+
+A plant that is almost entirely A, but carries one or a few genes from B.
+
+In practical terms, that means a plant that looks and behaves like Parent A, with one clearly defined modification.
+
+This is the same basic principle behind tomato introgression-line populations: most of the genome is kept in a common cultivated background, while specific donor segments are carried and studied one at a time (Eshed and Zamir 1995; Lippman et al. 2007).
+
+There is one important requirement built into this idea: Parent A needs to be stable.
+
+In the simplified model, Parent A works as the recurrent parent because it behaves like AA each time we use it. Each backcross to Parent A gives the project another dose of the same stable genetic background. That is what allows the line to become more and more like Parent A over successive cycles.
+
+If Parent A were an F1 hybrid, the situation would be different. In the toy model, that parent would already behave more like AB. Backcrossing to it repeatedly would not steadily return the project toward a fixed genome. Instead, it would keep reintroducing heterozygosity and segregation. The line might remain productive and interesting, but it would not be moving toward a stable version of the recurrent parent.
+
+That is why this strategy is best suited to stable open-pollinated varieties, inbred lines, or other parents that already breed true. The stability of the final line depends on the stability of the parent you are repeatedly returning to.
+
+## The Cycle That Makes This Work
+
+At its core, this approach follows a repeating pattern built around two alternating steps: a crossing generation and a selection generation. Rather than thinking of the process as a long sequence of different generations, it can be helpful to see it as a cycle that repeats.
+
+![A repeating two-generation introgression cycle. A selected micro plant is crossed back to an indeterminate purple-fruited parent, producing uniform F1 or BCxF1 plants. After self-pollination, a diverse F2 or BCxF2 population is grown out, the target phenotype is selected, and the cycle repeats.](images/introgression_cycle.png){#fig-introgression-cycle}
+
+Figure @fig-introgression-cycle shows this cycle in visual form. The numbered steps provide a useful way to follow the process from one generation to the next, and then back again as the cycle repeats.
+
+In terms of generation names, this pattern corresponds to:
+
+F1 → F2 → (select + backcross) → BC1F1 → BC1F2 → …
+
+This naming provides a convenient way to track progress, but the underlying structure remains the same: each pass through the cycle alternates between selection and backcrossing.
+
+## Walking Through One Cycle
+
+It can be helpful to walk through one complete pass around the cycle shown in Figure @fig-introgression-cycle.
+
+We begin at Step 1, where the original cross, or a later backcross, is made between two parents: Parent A, which we want to preserve, and Parent B, which carries the trait we want to introduce. This produces the F1, or later a BCxF1 generation.
+
+Moving to Step 2, we grow out these F1-like plants. At this stage, they are relatively uniform and heterozygous for the regions where the parents differ. If the target trait is recessive, it will typically not be visible. As we work through repeated cycles we will observe this BCxF1 plant become more and more like the recurrent parent, eventually it may be indistinguishable. 
+
+At Step 3, these plants are allowed to self-pollinate. This produces the next generation of seeds, which will segregate when grown out.
+
+At Step 4, we grow a population of F2-like plants. This is the key selection generation. Because segregation has occurred, we now see variation in both plant type and fruit characteristics, including the target trait we are trying to recover.
+
+From this population, we move to Step 5, where we select individuals that express the desired phenotype. In the example shown, this corresponds to identifying plants that combine the small micro growth habit with the desired fruit characteristics.
+
+At Step 6, a plant is selected and we may return back to Step 1 to again cross it to Parent A again. This produces a new BCxF1 generation advancing x each time. 
+
+From here, the cycle repeats. The BCxF1 plants are grown, selfed, and selected again in the same pattern, with each pass through the loop moving the genome further toward the recurrent parent while retaining the target trait.
+
+Thinking about the process in terms of this repeating cycle can make it much easier to follow. Rather than managing a long sequence of distinct generations, you are repeating the same two-generation pattern until you acheive the desired breeding outcome.
+
+## Two Roles Within the Cycle
+
+Another way to simplify the process is to recognize that each generation plays one of two roles within the cycle:
+
+- F1-like generations (F1, BC1F1, BC2F1, …)
+  - Typically involve a small number of plants, can be as few as one plant
+  - Seeds for the next generation are produced through self-pollination
+- F2-like generations (F2, BC1F2, BC2F2, …)
+  - Involve larger populations before selection, can be as few as one plant after selection
+  - Used to identify and select for the target trait
+  - Parent A must be regrown or retained in order to cross with the selected F2
+
+Thinking about the process in terms of these two roles helps clarify where effort is required. Population size is only needed during the selection generations, prior to selection, while the crossing steps can be carried out with as few as one plant.
+
+This perspective reinforces the structure shown in Figure @fig-introgression-cycle: each loop consists of one generation where variation is created and screened, followed by one generation where the selected plant is used to move the genome back toward the recurrent parent.
+
+## What This Means in Practice
+
+One of the advantages of this approach is how well it aligns with the constraints many hobby growers are working under.
+
+In a standard exploratory breeding project, the breeder may need to grow many plants in every generation to scan for useful combinations. In this approach, the work is more focused. In many generations, the whole project can revolve around just one selected plant and one recurrent-parent plant.
+
+That does not mean population size never matters. Larger populations are still useful during selection generations, such as F2 or BCxF2. But even there, much of the work can often be done early. If the trait you are targeting is visible at the seedling stage, you can germinate many seeds, select quickly, and only carry a few plants forward to maturity.
+
+The crossing generations can usually be managed with a very small number of plants: one Parent A plant and one selected plant from the current generation.
+
+This creates a natural rhythm where population size briefly expands during selection, then contracts again for the crossing step.
+
+That rhythm is what makes the process feel accessible. A hobby breeder does not necessarily need a field, a greenhouse, or hundreds of mature plants. A focused project might be managed with a small indoor growing space, a countertop hydroponic unit, or a simple light shelf, especially if the target trait can be identified early.
+
+This cycle also fits well into a seasonal pattern.
+
+During the outdoor growing season, you can focus on the larger plants needed for crossing—F1 or BCxF1 generations. These plants provide the structure and flowering needed to make reliable crosses and produce seed.
+
+During the indoor season, you can focus on selection generations—F2 or BCxF2 populations. If the focus of the project is to creat a micro- or dwarf tomato these would be smaller plants, and if your target trait is visible early, much of the selection work can be done in the first few days of the seedling stage.
+
+Taken together, this can easily feasible to run two generations per year, even within relatively limited space: one outdoor generation and one indoor generation. But the process is not limited to that pace. With a primarily indoor setup, careful timing, and a willingness to move quickly from crossing to fruit collection to seed saving to the next sowing, three or even four generations per year may be feasible. The key is not to treat each generation as a full gardening season. The key is to keep the project moving: make the needed cross, collect the fruit, save the seed, rotate the plant out, and start the next generation.
+
+This is one of the reasons I think this strategy matters for hobby breeders. It lowers the threshold for participation. A breeding project does not have to begin with a giant grow-out. It can begin with a focused goal, one stable recurrent parent, one donor trait, and a small dedicated growing space; fitting into most hobbyist's real-life constraints.
+
+## Why This Approach Works
+
+Each cycle contributes in two ways:
+
+- It moves the genome closer to Parent A
+- It retains the trait from Parent B
+
+Over successive cycles, more of the genome comes from Parent A, while the target trait is repeatedly recovered through selection.
+
+This only works because Parent A is stable. Each time we cross back to Parent A, we are returning to the same genetic anchor. The more often we return to that anchor, the more the project is pulled toward it. If the recurrent parent were itself unstable or an F1 hybrid, the anchor would move each generation, and the process would lose its direction.
+
+In the dwarf-tomato backcrossing example from Mattos and colleagues, successive backcross generations were associated with recovery of salad-type fruit traits while retaining dwarf plant habit, illustrating the same principle in an applied breeding context (Mattos et al. 2025).
+
+The result is a process that is:
+
+- Directed rather than random
+- Repeatable rather than open-ended
+- Well aligned with the practical constraints of hobby breeding
+
+Rather than trying to rebuild a complex variety from a fragmented genome, the process steadily returns to a variety that is already an exceptional example—while carrying along the one change you care about.
+
+# When This Strategy Is the Right Tool
+
+At this point, we’ve looked at how the standard approach behaves and how introgression introduces direction into the process. The remaining question is a practical one:
+
+When does this approach make sense to use?
+
+Introgression is not a replacement for the standard approach. It is simply a different way of breeding that is more suitable for a particular set of breeding goals. The key is recognizing when your goal aligns with what this method is designed to do.
+
+One helpful way to frame the decision is with a simple question:
+
+Are you trying to create something new, or modify something that is already an exceptional example?
+
+If your goal is exploration—combining traits, discovering new phenotypes, or seeing what emerges from variation—then the standard approach is often a good fit. It is well suited to open-ended discovery.
+
+If your goal is more targeted—taking a variety you already value and adding one specific trait—then introgression can offer a more direct path. This is the same basic reason wild relatives and specialized donor lines have been so useful in tomato improvement: they can provide specific traits that breeders then move into more desirable cultivated backgrounds (Hajjar and Hodgkin 2007; Khazaei and Madduri 2022).
+
+## When Introgression Tends to Fit Well
+
+The situations where introgression works best tend to share a few common features:
+
+**Table 2: When Introgression Is a Good Fit**
+
+| Factor | Good Fit | Less Ideal Fit |
+|---|---|---|
+| Breeding goal | Modify an existing variety | Create something entirely new |
+| Target variety (Parent A) | Clearly defined and worth preserving | No specific target |
+| Recurrent parent stability | Stable open-pollinated or inbred variety | F1 hybrid or unstable segregating line |
+| Number of traits | One or a few traits | Many traits at once |
+| Genetic complexity | Trait controlled by few genes | Highly polygenic traits |
+| Trait visibility | Easy to identify, ideally early | Difficult or late to observe |
+| Trait stability | Stable when homozygous | Depends on heterozygous state |
+| Practical constraints | Limited space and plant count | Large populations available |
+
+The stability of Parent A matters because it is the anchor for the whole process. If the recurrent parent is stable, each backcross pulls the project toward the same target. If the recurrent parent is an F1 hybrid or an unstable segregating line, the target itself keeps changing.
+
+The “good fit” column lines up with many successful uses of introgression in tomato breeding: defined donor traits, a recurrent parent background worth preserving, and enough selection pressure to keep the desired trait while reducing unwanted donor background (Lippman et al. 2007; Menda et al. 2014).
+
+One caution is that a donor trait rarely arrives completely alone. The desired gene may be carried along with nearby donor DNA, and some of that linked material may have unwanted effects. Professional breeders call this “linkage drag.” Repeated backcrossing helps reduce it, but it does not make the problem disappear automatically (Menda et al. 2014; Hajjar and Hodgkin 2007).
+
+The same logic can apply to other clearly defined tomato traits. Disease-resistance genes such as Mi-1 for root-knot nematode resistance and Ty-1/Ty-3 for Tomato yellow leaf curl virus resistance are classic examples of useful traits introduced from wild tomato relatives into cultivated backgrounds. Anthocyanin fruit expression is another example of a visible trait that has been moved from wild relatives into cultivated tomato backgrounds (Vos et al. 1998; Verlaan et al. 2013; Jones et al. 2003; Mes et al. 2008).
+
+## Why Dwarf and Micro Breeding Fit Especially Well
+
+Dwarf and micro breeding provide a clear example of a situation where this approach tends to work particularly well.
+
+In many cases, the goal is not to create a new tomato from scratch, but to modify an existing one. The intent is often something like:
+
+“I like this tomato exactly as it is—I just want it in a smaller form.”
+
+That kind of goal aligns naturally with introgression.
+
+These traits also tend to have a relatively simple genetic basis compared to more complex characteristics like flavor or yield. Just as importantly, they are easy to recognize early in development. Dwarf plants show rugose leaf structure, and micro plants exhibit extremely compact growth at a young stage. This makes early selection both practical and efficient.
+
+The inheritance pattern also helps. The dwarf trait is recessive, which means that once it is visible, it is already fixed at that locus. There is no ambiguity about whether the gene is present or stable. This avoids some of the uncertainty that can come with dominant traits, where heterozygous and homozygous individuals appear the same.
+
+From a practical standpoint, this type of project fits well within the constraints of hobby growing. Larger populations are only needed briefly during selection generations, and much of that work can often be done at the seedling stage. The rest of the process can be carried out with a small number of plants.
+
+Another benefit is that complex traits from the original variety—things like flavor, productivity, and overall plant character—are more likely to be preserved than they would be in an open-ended 50/50 recombinant population. They are not guaranteed, but each backcross gives the breeder another opportunity to return toward Parent A while retaining the selected trait. Complex fruit traits and pathogen responses can involve many interacting loci, which is why they are harder to manage by simple visual selection alone (Szymański et al. 2020).
+
+At some point, the breeder has to decide when to stop repeating the recurrent backcross loop shown in Figure @fig-introgression-cycle and begin maintaining the new line by continued selfing. There is no single universal stopping point, but there are a few practical indicators that the project may be ready to leave the loop.
+
+One good sign is that the BCxF1 plant has become difficult to distinguish from the recurrent parent. In a microdwarf project, the ideal BCxF1 would look essentially like Parent A because the dwarfing genes are recessive. Conceptually, we are aiming for a plant that is nearly identical to the recurrent parent across the genome, except that it carries one hidden copy of each recessive dwarfing gene.
+
+A second good sign is that the BCxF2 selection population still preserves the primary traits of the recurrent parent, other than growth form. If the fruit color, flavor, shape, plant character, and general productivity are all tracking back toward Parent A, then additional backcrosses may provide diminishing returns.
+
+There is one important caveat for microdwarf selections: fruit size may not be fully preserved. A microdwarf plant has much less vegetation supporting fruit development, so its fruit will often be smaller than the fruit on the full-sized recurrent parent. That does not mean the backcrossing has failed. If the recurrent parent has larger fruit, the resulting microdwarf may still produce larger fruit than many typical microdwarfs. This is similar to the general pattern observed in dwarf-tomato backcrossing work, where repeated backcrossing helped recover more of the desired fruit background and increased fruit size, while retaining dwarf plant habit (Mattos et al. 2025).
+
+This is part of why dwarf and micro projects are such good entry points for hobby breeding. They offer visible progress, manageable selection, and a real chance of reaching a defined goal without needing a large grow-out every generation.
+
+## A Useful Side Effect: One Project, Two Growth Forms
+
+There is also a useful side effect that can emerge from micro breeding projects.
+
+Many microdwarf lines appear to behave as though the micro phenotype is built from two or three recessive dwarfing components. In many cases, one of those components is the familiar rugose dwarf trait, while the others are additional recessive dwarfing factors that pushes the plant from “dwarf” into “micro.”
+
+That means a micro project can often produce two useful outcomes from the same basic work.
+
+![A conceptual model of how a microdwarf introgression project can produce both a stable microdwarf line and, after one additional confirmation step, a stable regular dwarf line. The final BCxF2 selection population may contain microdwarf, regular dwarf, and non-target plants. Microdwarf selections can be selfed and maintained directly. Regular dwarf selections are selfed and tested: if no microdwarfs appear, the regular dwarf line can be treated as stable for growth habit; if microdwarfs appear, the breeder repeats the regular-dwarf selection and confirmation step until no microdwarfs are observed.](images/microdwarf_and_dwarf_tomato_breeding_project.png){#fig-two-growth-forms}
+
+Figure @fig-two-growth-forms shows this side effect as a branching process. The starting point is the final BCxF2 selection population, shown as Step 1 in the figure. This is the point where the breeder is ready to exit the recurrent backcross loop from Figure @fig-introgression-cycle and begin turning selected plants into stable lines.
+
+During the recurrent backcross loop, the main goal is to select the full micro phenotype and keep crossing it back to Parent A. But at the final selection step—when you are ready to leave the loop and begin maintaining the new line by selfing—you will see both microdwarf plants and regular dwarf plants in the same BCxF2 population. This is the mixed population shown in Step 1 of Figure @fig-two-growth-forms.
+
+The microdwarf path is shown as Branch 2A in Figure @fig-two-growth-forms. The microdwarf selections are straightforward. If a plant shows the full micro phenotype, it is expected to be homozygous for the recessive combination that produces that growth habit. In practical terms, that means the microdwarf phenotype should be stable when selfed.
+
+The regular dwarf path is shown as Branch 2B in Figure @fig-two-growth-forms. The regular dwarf selections require one extra step of confirmation.
+
+A regular dwarf plant is already fixed for the rugose dwarf trait, but it may still carry one hidden copy of the other recessive dwarfing factors. If it does, then some of its offspring may segregate into microdwarfs in the next generation. If it does not, then its offspring should remain regular dwarfs rather than producing micros.
+
+The test is simple:
+
+- Select one or more regular dwarf plants from the final BCxF2 population
+- Let those dwarf plants self-pollinate
+- Save seed from each plant separately
+- Grow a reasonably large number of seedlings from each seed lot
+- Watch for microdwarf seedlings
+
+If microdwarf seedlings appear, that parent was carrying the second dwarfing factor in heterozygous form. In the logic of Branch 2B, that means you repeat the regular dwarf selection and confirmation step from it's offspring. If no microdwarfs appear in a good-sized seedling grow-out, then the parent is likely homozygous for the non-micro form of that second gene, and its seed line can be treated as stable for the regular dwarf growth habit.
+
+So, within one generation after leaving the recurrent backcross loop—perhaps around BC4F2 or BC5F2—you may be able to stabilize two different new growth forms from the same project:
+
+- A microdwarf version of the recurrent parent
+- A regular dwarf version of the recurrent parent
+
+That is a pretty good payoff: two new tomatoes for the price of one!
+
+There is one important caution. This assumes the micro donor behaves like the common two or three recessive-factor model. Some micro lines may not behave exactly the same way, so the confirmation grow-out is still important. The author has observed that the microdwarf growth habit seems to follow a two recessive-factor model when the microdwarf variety Vilma was used as the micro donor. 
+
+## Summary
+
+Introgression tends to be most useful when the goal is clear and constrained:
+
+Take a tomato that is already an exceptional example and introduce one specific change while preserving everything else.
+
+The key requirement is that the variety being preserved must itself be stable. The recurrent parent is the anchor for the whole project; if the anchor changes each generation, the strategy loses much of its direction.
+
+In the right situation, introgression can provide a more directed and manageable path than the standard approach. It reduces the need for large populations, avoids unnecessary recombination, and aligns well with the practical realities of hobby breeding.
+
+Dwarf and micro breeding illustrate this especially well, but the same general logic can apply to other traits that are simple, selectable, and stable. When those conditions are met, introgression can be a particularly effective tool to have available.
+
+For a hobby breeder, that is the real promise of this approach: breeding can be focused, small-scale, and accessible. Breeding is not only for institutions or large growers. Breeding is for anyone with a clear goal, a few plants, and the patience to keep moving the project forward.
+
+# AI Assistance Disclosure {.unnumbered .unlisted}
+
+This paper was developed with assistance from OpenAI’s ChatGPT. The author provided the core breeding strategy, reviewed primary literature and other referenced  materials, directed revisions and checked citations. The author used ChatGPT to help organize revisions, review uploaded source materials, revise explanatory prose, develop figures from author supplied concepts and diagrams. The author accepts full responsibility for the final content.
+
+The figures are conceptual teaching diagrams rather than data figures. Figure @fig-introgression-cycle and @fig-two-growth-forms was generated and revised with AI assistance under author direction.
+
+# References {.unnumbered .unlisted}
+
+Eshed, Y., and Zamir, D. 1995. An introgression line population of *Lycopersicon pennellii* in the cultivated tomato enables the identification and fine mapping of yield-associated QTL. *Genetics* 141: 1147–1162.
+
+Hajjar, R., and Hodgkin, T. 2007. The use of wild relatives in crop improvement: A survey of developments over the last 20 years. *Euphytica* 156: 1–13.
+
+Jones, C. M., Mes, P., and Myers, J. R. 2003. Characterization and inheritance of the Anthocyanin fruit (*Aft*) tomato. *Journal of Heredity* 94(6): 449–456.
+
+Khazaei, H., and Madduri, A. 2022. The role of tomato wild relatives in breeding disease-free varieties. *Genetic Resources* 3(6): 64–73.
+
+Lippman, Z. B., Semel, Y., and Zamir, D. 2007. An integrated view of quantitative trait variation using tomato interspecific introgression lines. *Current Opinion in Genetics & Development* 17: 545–552.
+
+Mattos, T. P., Maciel, G. M., de Oliveira, C. S., Ribeiro, A. L. A., Siquieroli, A. C. S., Silva, N. C. Q., de Oliveira, O. R., and Pereira, V. A. 2025. Introgression of dwarfing genes into tomato fruit through backcrossing aiming at salad-type background. *Revista Caatinga* 38: e12718.
+
+Menda, N., Strickler, S. R., Edwards, J. D., Bombarely, A., Dunham, D. M., Martin, G. B., Mejia, L., Hutton, S. F., Havey, M. J., Maxwell, D. P., and Mueller, L. A. 2014. Analysis of wild-species introgressions in tomato inbreds uncovers ancestral origins. *BMC Plant Biology* 14: 287.
+
+Mes, P. J., Boches, P., Myers, J. R., and Durst, R. 2008. Characterization of tomatoes expressing anthocyanin in the fruit. *Journal of the American Society for Horticultural Science* 133(2): 262–269.
+
+Tomato Genome Consortium. 2012. The tomato genome sequence provides insights into fleshy fruit evolution. *Nature* 485: 635–641.
+
+Verlaan, M. G., Hutton, S. F., Ibrahem, R. M., Kormelink, R., Visser, R. G. F., Scott, J. W., Edwards, J. D., and Bai, Y. 2013. The Tomato Yellow Leaf Curl Virus resistance genes *Ty-1* and *Ty-3* are allelic and code for DFDGD-class RNA-dependent RNA polymerases. *PLOS Genetics* 9(3): e1003399.
+
+Vos, P., Simons, G., Jesse, T., Wijbrandi, J., Heinen, L., Hogers, R., Frijters, A., Groenendijk, P., Diergaarde, P., Reijans, M., Fierens-Onstenk, J., de Both, M., Peleman, J., Liharska, T., Hontelez, J., and Zabeau, M. 1998. The tomato *Mi-1* gene confers resistance to both root-knot nematodes and potato aphids. *Nature Biotechnology* 16: 1365–1369.

@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "A Practical Introgression Strategy for Hobby Tomato Breeders"
+  navbar:
+    right:
+      - text: "Download PDF"
+        href: tomato-introgression-guide.pdf
+
+format:
+  html:
+    toc: false
+    number-sections: true
+    theme: cosmo
+  pdf:
+    toc: false
+    number-sections: true
+    documentclass: article
+    papersize: letter
+    geometry: margin=1in
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+header-includes:
+  - \usepackage{float}
+  - \usepackage{placeins}
+
+tbl-pos: H

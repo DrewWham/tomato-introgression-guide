@@ -1,0 +1,137 @@
+/* General page polish */
+body {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+/* Keep article width comfortable for reading */
+main.content {
+  max-width: 850px;
+}
+
+/* Title block */
+.quarto-title-block .title {
+  font-size: 2.2rem;
+  line-height: 1.15;
+  color: #14324a;
+  margin-bottom: 0.4rem;
+}
+
+.quarto-title-block .quarto-title-meta {
+  color: #5f6f7a;
+}
+
+/* Section headings */
+h1, h2, h3 {
+  color: #14324a;
+  line-height: 1.25;
+}
+
+h1 {
+  border-bottom: 2px solid #d8e6f3;
+  padding-bottom: 0.25rem;
+  margin-top: 2.2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+/* Section numbers */
+.header-section-number {
+  color: #1f6feb;
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+/* Links */
+a {
+  color: #1f6feb;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: #174ea6;
+}
+
+/* Emphasized centered question or key statement blocks */
+.center,
+.callout-center {
+  text-align: center;
+}
+
+.center strong em,
+.callout-center strong em {
+  display: inline-block;
+  color: #14324a;
+  font-size: 1.15rem;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #d8e6f3;
+  border-bottom: 1px solid #d8e6f3;
+}
+
+/* Figures */
+.figure,
+.quarto-figure {
+  margin-top: 1.6rem;
+  margin-bottom: 1.8rem;
+}
+
+.figure img,
+.quarto-figure img {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(20, 50, 74, 0.12);
+}
+
+figcaption,
+.figure-caption {
+  color: #52636f;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin-top: 0.5rem;
+}
+
+/* Tables */
+table {
+  font-size: 0.95rem;
+}
+
+thead th {
+  background-color: #edf5fb;
+  color: #14324a;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8fbfd;
+}
+
+/* Horizontal rules, if used */
+hr {
+  border: none;
+  border-top: 1px solid #d8e6f3;
+  margin: 2rem 0;
+}
+
+/* Optional utility class for short highlighted notes */
+.guide-note {
+  background: #f3f8fc;
+  border-left: 4px solid #1f6feb;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  margin: 1.25rem 0;
+}
+
+/* Optional utility class for gentle cautions */
+.guide-caution {
+  background: #fff8e8;
+  border-left: 4px solid #d99000;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  margin: 1.25rem 0;
+}
+
+/* Make PDF download/nav area feel clean if using navbar */
+.navbar {
+  box-shadow: 0 1px 6px rgba(20, 50, 74, 0.08);
+}

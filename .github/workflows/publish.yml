@@ -35,7 +35,17 @@ jobs:
 
       - name: Copy PDF into site output
         run: |
-          cp index.pdf _site/tomato-introgression-guide.pdf
+          echo "Looking for rendered PDFs..."
+          find . -maxdepth 3 -type f -name "*.pdf" -print
+
+          if [ -f "_site/index.pdf" ]; then
+            cp _site/index.pdf _site/tomato-introgression-guide.pdf
+          elif [ -f "index.pdf" ]; then
+            cp index.pdf _site/tomato-introgression-guide.pdf
+          else
+            echo "No rendered PDF found."
+            exit 1
+          fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

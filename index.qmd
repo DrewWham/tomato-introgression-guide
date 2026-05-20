@@ -7,8 +7,6 @@ date: today
 
 Most hobby tomato breeding follows a familiar pattern: make a cross, grow the F1, self it to produce an F2, and then begin selecting and selfing over successive generations until the line is considered stable. This approach makes a lot of sense when the goal is discovery. It allows us to explore variation, uncover unexpected combinations, and occasionally stumble into something genuinely new and exciting.
 
-![A simplified overview of the breeding goal described in this paper. The recurrent parent contributes the purple fruit identity, the donor parent contributes the microdwarf growth habit, and a repeated cycle of crossing, selfing, segregating, selecting, and backcrossing can be used to create a purple-fruited microdwarf.](images/intro_image.png){#fig-intro-image fig-align="center" width="100%"}
-
 At the same time, that process comes with some real practical challenges. It tends to work best when you can grow reasonably large populations and apply consistent selection over multiple generations. For many hobby breeders, that simply isn’t realistic. We are often working with a handful of garden plants in the summer, maybe a shelf or grow tent in the winter, and limited time to manage everything. Under those constraints, progress can feel slow and outcomes can feel uncertain.
 
 One goal of this paper is to make breeding feel more approachable. Breeding does not have to belong only to people with fields, greenhouses, or institutional resources. With the right set of goals and a defined strategy, a focused breeding project can be small and practical, while still allowing a prospective breeder to achieve a desired outcome. This paper is about a breeding goal that is narrower, but often more approachable under hobby-scale conditions.
@@ -18,6 +16,8 @@ Instead of asking, “What new combinations can I create?” we can ask a more f
 ::: {.center}
 ***How can I take an already exceptional variety and add one specific trait to it?***
 :::
+
+![A simplified overview of the breeding goal described in this paper. The recurrent parent contributes the purple fruit identity, the donor parent contributes the microdwarf growth habit, and a repeated cycle of crossing, selfing, segregating, selecting, and backcrossing can be used to create a purple-fruited microdwarf.](images/intro_image.png){#fig-intro-image fig-align="center" width="100%"}
 
 Figure @fig-intro-image summarizes that idea visually: preserve what makes the original variety special, borrow the one trait you want, and use a repeated breeding process to create the target plant.
 

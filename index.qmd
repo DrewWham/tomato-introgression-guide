@@ -17,9 +17,9 @@ Instead of asking, “What new combinations can I create?” we can ask a more f
 ***How can I take an already exceptional variety and add one specific trait to it?***
 :::
 
-![A simplified overview of the breeding goal described in this paper. The recurrent parent contributes the purple fruit identity, the donor parent contributes the microdwarf growth habit, and a repeated cycle of crossing, selfing, segregating, selecting, and backcrossing can be used to create a purple-fruited microdwarf.](images/intro_image.png){#fig-intro-image fig-align="center" width="100%"}
-
 Figure @fig-intro-image summarizes that idea visually: preserve what makes the original variety special, borrow the one trait you want, and use a repeated breeding process to create the target plant.
+
+![A simplified overview of the breeding goal described in this paper. The recurrent parent contributes the purple fruit identity, the donor parent contributes the microdwarf growth habit, and a repeated cycle of crossing, selfing, segregating, selecting, and backcrossing can be used to create a purple-fruited microdwarf.](images/intro_image.png){#fig-intro-image fig-align="center" width="100%"}
 
 This general idea—bringing a useful trait from one tomato background into another while preserving the main variety—is widely used in tomato breeding, especially when breeders work with traits from wild relatives or specialized donor lines (Hajjar and Hodgkin 2007; Khazaei and Madduri 2022).
 

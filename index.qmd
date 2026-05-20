@@ -1,7 +1,8 @@
 ---
 title: "A Practical Introgression Strategy for Hobby Tomato Breeders"
 author: "Drew C. Wham, PhD"
-date: today
+date: "Published: May 19, 2026"
+date-modified: today
 ---
 # Introduction: Why Would Someone Serial Backcross?
 

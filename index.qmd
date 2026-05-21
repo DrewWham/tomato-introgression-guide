@@ -1,5 +1,5 @@
 ---
-title: "A Practical Introgression Strategy for Hobby Tomato Breeders"
+title: "A Practical Backcrossing Strategy for Hobby Tomato Breeders: Preserving a Favorite Variety While Adding One Trait"
 author: "Drew C. Wham, PhD"
 date: "Published: May 19, 2026"
 date-modified: today

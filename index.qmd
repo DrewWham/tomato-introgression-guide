@@ -5,10 +5,6 @@ author: "Drew C. Wham, PhD"
 date: "Published: May 19, 2026"
 date-modified: today
 ---
-author: "Drew C. Wham, PhD"
-date: "Published: May 19, 2026"
-date-modified: today
----
 # Introduction: Keeping the Tomato While Changing a Trait
 
 Most hobby tomato breeding follows a familiar pattern: make a cross, grow the F1, self it to produce an F2, and then begin selecting and selfing over successive generations until the line is considered stable. This approach makes a lot of sense when the goal is discovery. It allows us to explore variation, uncover unexpected combinations, and occasionally stumble into something genuinely new and exciting.

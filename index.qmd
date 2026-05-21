@@ -4,7 +4,7 @@ author: "Drew C. Wham, PhD"
 date: "Published: May 19, 2026"
 date-modified: today
 ---
-# Introduction: Why Would Someone Serial Backcross?
+# Introduction: Keeping the Tomato While Changing a Trait
 
 Most hobby tomato breeding follows a familiar pattern: make a cross, grow the F1, self it to produce an F2, and then begin selecting and selfing over successive generations until the line is considered stable. This approach makes a lot of sense when the goal is discovery. It allows us to explore variation, uncover unexpected combinations, and occasionally stumble into something genuinely new and exciting.
 
@@ -418,7 +418,7 @@ For a hobby breeder, that is the real promise of this approach: breeding can be 
 
 This paper was developed with assistance from OpenAI’s ChatGPT. The author provided the core breeding strategy, reviewed primary literature and other referenced  materials, directed revisions and checked citations. The author used ChatGPT to help organize revisions, review uploaded source materials, revise explanatory prose, develop figures from author supplied concepts and diagrams. The author accepts full responsibility for the final content.
 
-The figures are conceptual teaching diagrams rather than data figures. Figure @fig-introgression-cycle and @fig-two-growth-forms was generated and revised with AI assistance under author direction.
+The figures are conceptual teaching diagrams rather than data figures. @fig-intro-image , @fig-introgression-cycle and @fig-two-growth-forms was generated and revised with AI assistance under author direction.
 
 # References {.unnumbered .unlisted}
 

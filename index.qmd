@@ -1,6 +1,10 @@
 ---
-title:"Preserving a Favorite Tomato Variety While Changing a Trait"
-subtitle:  "A Practical Backcrossing Strategy for Hobby Breeders"
+title: "Preserving a Favorite Tomato Variety While Changing a Trait"
+subtitle: "A Practical Backcrossing Strategy for Hobby Tomato Breeders"
+author: "Drew C. Wham, PhD"
+date: "Published: May 19, 2026"
+date-modified: today
+---
 author: "Drew C. Wham, PhD"
 date: "Published: May 19, 2026"
 date-modified: today
